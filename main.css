@@ -62,8 +62,21 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  display: inline-block;
+  
 }
+
+.save {
+  border-radius: 6px;
+  
+}
+
+.cancel {
+  background-color: red;
+  border-radius: 6px;
+  width: 50%;
+}
+
 button:hover {
   opacity: 0.8;
 }
