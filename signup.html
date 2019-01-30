@@ -1,0 +1,64 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--<script src="main.js"></script>-->
+</head>
+<body>
+        <div class="split left">
+                <div class="centered">
+                  <img src="resources/vote.jpg" alt="Ballot box">
+                  <h2>Politico</h2>
+                  <p>Elect the leaders you want</p>
+                </div>
+              </div>
+              
+              <div class="split right">
+                <div class="centered signup">
+                  
+                  <!--<img src="resources/check.jpg" alt="Check mark on smartphone screen">-->
+                  <form>
+                        <div class="container">
+                                <h2>Create a Politico account to Vote</h2>
+                          <p>Please fill in this form to create an account.</p>
+                          <hr>
+                      
+                          <label for="email"><b>Email</b></label>
+                          <input type="text" placeholder="Enter Email" name="email" required>
+                          
+                          <label for="nationalid"><b>National ID number</b></label>
+                          <input type="text" placeholder="Enter National ID number" name="nationalid" required>
+                          
+                          <label for="homecounty"><b>Home County</b></label>
+                          <input type="text" placeholder="Enter Home County" name="homecounty" required>
+                      
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                          <label for="psw-repeat"><b>Repeat Password</b></label>
+                          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                          <hr>
+                      
+                          
+                          <button id="signup" type="submit" >Create Account</button>
+                        </div>
+                      
+                        <div class="container">
+                          <p>Already have an account? <a href="signin.html">Sign in</a>.</p>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+                <script>
+                        document.getElementById("signup").onclick = function () {
+                            location.href = "index.html";
+                        };
+                    </script>
+                      
+</body>
+
+</html>
