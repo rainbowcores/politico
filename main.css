@@ -194,19 +194,20 @@ th {
   color: white;
   text-align: center;
 }
-.sidebar-nav {
-  margin-top: -50px;
+.sidenav {
+  margin-top: -450px;
 }
 .sidebar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 18%;
+  width: 20%;
   background: #000000;;
   position: fixed;
   height: 100%;
   overflow: auto;
   margin-top: 70px;
+  position: fixed;
 }
 
 
@@ -225,3 +226,4 @@ th {
   background-color: #ddd;
   color: black;
 }
+
