@@ -26,7 +26,14 @@
                                 <h2>Create a Politico account to Vote</h2>
                           <p>Please fill in this form to create an account.</p>
                           <hr>
-                      
+                          <label for="usertype"><b>I am a:</b></label>
+                          <form >
+                              <input type="radio" name="gender" value="male"> Voter
+                              <input type="radio" name="gender" value="female"> Politician
+                          </form>
+                          <br>
+
+                          <br>
                           <label for="email"><b>Email</b></label>
                           <input type="text" placeholder="Enter Email" name="email" required>
                           
@@ -36,17 +43,16 @@
                           <label for="homecounty"><b>Home County</b></label>
                           <input type="text" placeholder="Enter Home County" name="homecounty" required>
                       
+                          
                           <label for="psw"><b>Password</b></label>
                           <input type="password" placeholder="Enter Password" name="psw" required>
                       
                           <label for="psw-repeat"><b>Repeat Password</b></label>
                           <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                          <hr>
-                      
                           
+                          <hr>
                           <button id="signup" type="submit" >Create Account</button>
                         </div>
-                      
                         <div class="container">
                           <p>Already have an account? <a href="signin.html">Sign in</a>.</p>
                         </div>
