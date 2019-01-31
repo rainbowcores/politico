@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     
     font-family: Montserrat, sans-serif;
   }
@@ -144,7 +144,7 @@ td, th {
   padding: 15px
 }
 
-<<<<<<< HEAD
+
   table { 
   border-collapse: collapse;
   margin: auto;
@@ -163,10 +163,9 @@ th {
 }
 
 
-/*.collapsible {
-=======
+
 .collapsible {
->>>>>>> gh-pages
+
   background-color: darkcyan;
   color: white;
   cursor: pointer;
