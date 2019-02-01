@@ -23,13 +23,14 @@
                   <!--<img src="resources/check.jpg" alt="Check mark on smartphone screen">-->
                   <form>
                         <div class="container">
+                          <br>
                                 <h2>Create a Politico account to Vote</h2>
                           <p>Please fill in this form to create an account.</p>
                           <hr>
                           <label for="usertype"><b>I am a:</b></label>
                           <form >
-                              <input type="radio" name="gender" value="male"> Voter
-                              <input type="radio" name="gender" value="female"> Politician
+                              <input type="radio" name="usertype" value="voter"> Voter
+                              <input type="radio" name="usertype" value="politician"> Politician
                           </form>
                           <br>
 
@@ -51,10 +52,11 @@
                           <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
                           
                           <hr>
-                          <button id="signup" type="submit" >Create Account</button>
+                          <button style="border-radius: 5px" id="signup" type="submit" >Create Account</button>
+                          <p>Already have an account? <a href="signin.html">Sign in</a>.</p>
+
                         </div>
                         <div class="container">
-                          <p>Already have an account? <a href="signin.html">Sign in</a>.</p>
                         </div>
                       </form>
                     </div>
