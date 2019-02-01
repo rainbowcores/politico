@@ -268,13 +268,50 @@ th {
   text-decoration: none;
   margin: 5px 0 0 0;
 }
+
+fieldset.radiogroup  { 
+  margin: 0; 
+  padding: 0; 
+  margin: 50px auto;
+  width: 60%;
+
+  border-radius: 20px;
+   
+} 
+
+
+fieldset.radiogroup legend { 
+  margin: 0; 
+  padding: 0; 
+  font-weight: bold; 
+  margin-left: 30px; 
+  font-size: 100%; 
+  color: black; 
+} 
+
+
+ul.radio  { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 20px; 
+  list-style: none; 
+} 
+
+ul.radio li { 
+  border: 1px transparent solid; 
+} 
+
+ul.radio li:hover, 
+ul.radio li.focus  { 
+  background-color: rgba(135, 206, 235); 
+  border: 1px gray solid; 
+  width: 10em; 
+} 
+
 .sidebar li a.active {
   background-color: rgba(135, 206, 235;
   color: white;
 }
-
-
-
 
 
 
