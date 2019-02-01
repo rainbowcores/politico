@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vote</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a href="">Home</a>
+        <a href="votinghistory.html">My Profile</a>
+        <a href="vote.html">Vote</a>
+        <a href="signin.html" >Logout</a>
+    </div>
+    <div >
+        
+            <div >
+                
+                    <fieldset class="radiogroup" style="width:50%"> 
+                            <legend>Vote for President</legend> 
+                            <br>
+                              <ul class="radio"> 
+                                <li><input type="radio" name="president" id="president1" value="" /><label for="president1">Angela Reya</label></li> 
+                                <li><input type="radio" name="president" id="president2" value="" /><label for="president2">Juma Soprano</label></li> 
+                                <li><input type="radio" name="president" id="president3" value="" /><label for="president3">Fino Kende</label></li> 
+                              </ul> 
+                            </fieldset> 
+                            
+                            <fieldset class="radiogroup" style="width:50%"> 
+                            <legend>Vote for Governor</legend> 
+                              <ul class="radio"> 
+                                <li><input type="radio" name="governor" id="governor1" value="Ian Michael" /><label for="governor1">Ian Michael</label></li> 
+                                <li><input type="radio" name="governor" id="governor2" value="" /><label for="governor2">Janet Soprano</label></li> 
+                                <li><input type="radio" name="governor" id="governor3" value="" /><label for="governor3">Ricci Ricky</label></li> 
+                              </ul> 
+                            </fieldset> 
+                            <fieldset class="radiogroup" style="width:50%"> 
+                                    <legend>Vote for Senator</legend> 
+                                      <ul class="radio"> 
+                                        <li><input type="radio" name="senator" id="senator1"/><label for="senator1">Sarange Reya</label></li> 
+                                        <li><input type="radio" name="senator" id="senator2"  /><label for="senator2">Nyaga Igandu</label></li> 
+                                        <li><input type="radio" name="senator" id="senator3" /><label for="senator3">Doja Cat</label></li> 
+                                      </ul> 
+                                    </fieldset> 
+                                    
+                                      
+                                      <button class="save" id="votesave" type="submit" style="position: absolute;right:40%">Vote</button>
+                                      
+
+                                      
+                        
+                                    
+                      
+            </div>
+    </div>
+    <div class="sidenav">
+            <ul class="sidebar">
+                <br>
+                <br>
+                <li ><img src="resources/user.jpg" alt="user icon"  width="100" height="100" style="border-radius: 50%;">Christine</a></li>
+                <br>
+                <li><a href="homepage.html">Political Parties</a></li>
+                <li> <a href="usergovernmentoffice.html">Government Positions</a></li>
+                <li><a href="#">Account Details</a></li>
+                
+                <li><a href="#">App Settings</li>
+            </ul>
+        </div>
+    
+    <div class="footer">
+            <p>2018</p>
+    </div>
+    <script>
+      document.getElementById("votesave").onclick = function () {
+          location.href = "votinghistory.html";
+      };
+  </script>
+    
+</body>
+</html>
