@@ -1,0 +1,69 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Delete A Political Party</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--<script src="main.js"></script>-->
+</head>
+<body>
+        <div class="split left">
+                <div class="centered">
+                  <img src="resources/vote.jpg" alt="Ballot box">
+                  <h2>Politico</h2>
+                  <p>Elect the leaders you want</p>
+                </div>
+              </div>
+              
+              <div class="split right">
+                <div class="centered signup">
+                  
+                  <!--<img src="resources/check.jpg" alt="Check mark on smartphone screen">-->
+                  <form>
+                        <div class="container">
+                          <br>
+                                <h2>Delete Political Party</h2>
+                          <p>Please fill in this form</p>
+                          <hr>
+                          
+                          <br>
+
+                          <br>
+                          <label for="partyname"><b>Party Name</b></label>
+                          <input type="text" value="People's Choice Party" placeholder="Enter Party Name" name="partyname" required>
+                          
+                          <label for="abbreviation"><b>Abbreviation</b></label>
+                          <input type="text" value="PCR" placeholder="Enter Abbreviation" name="abbreviation" required>
+                          
+                          <label for="chairperson"><b>Chairperson Name</b></label>
+                          <input type="text" value="Angela Raya" placeholder="Enter Chairperson Name" name="chairperson" required>
+                      
+                          
+                          <label for="partyemail"><b>Party Email</b></label>
+                          <input type="text" value="info@pcr.org" placeholder="Enter Party Email" name="partyemail" required>
+                      
+                          <label for="headquarters"><b>Party Headquarters</b></label>
+                          <input type="text" value="Mugumo House, Kanduru Road" placeholder="Party Headquarters" name="psw-headquarters" required>
+                          
+                          <hr>
+                          <button class="save" id="deletecancel" >Go Back</button> 
+                          <button class="cancel" id="deletesave" >Delete Party</button> 
+                        </div>
+                        
+                      </form>
+                    </div>
+                </div>
+                <script>
+                        document.getElementById("deletesave").onclick = function () {
+                            location.href = "dashboard.html";
+                        };
+                        document.getElementById("deletecancel").onclick = function () {
+                            location.href = "dashboard.html";
+                        };
+                    </script>
+                      
+</body>
+
+</html>
