@@ -140,6 +140,34 @@ span.psw {
   background-color: rgba(135, 206, 235);
   color: white;
 }
+.topnav-admin {
+  background-color: black;
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.topnav-admin a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%;
+}
+
+
+.topnav-admin a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-a a.active {
+  background-color: rgba(135, 206, 235);
+  color: white;
+}
 td, th {
   text-align: left;
   border: 1px solid #ddd;
@@ -205,14 +233,18 @@ th {
 }
 .sidebar {
   list-style-type: none;
-  margin: 0;
+  z-index: 1;
+  
   padding: 0;
   width: 20%;
   background: #000000;;
   position: fixed;
   height: 100%;
-  overflow: auto;
-  margin-top: 70px;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+  
   position: fixed;
 }
 
