@@ -1,0 +1,92 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Express Interest in a Government Office</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--<script src="main.js"></script>-->
+</head>
+<body>
+        <div class="split right">
+                <div class="centered">
+                  <img src="resources/politician.png" alt="Politician on a podium">
+                  <h2>Politico</h2>
+                  <h3>Leadership for a Brighter Future</h3>
+                </div>
+              </div>
+              
+              <div class="split left">
+                <div class="centered signup">
+                  
+                  <!--<img src="resources/check.jpg" alt="Check mark on smartphone screen">-->
+                  <form>
+                        <div class="container">
+                            <br>
+                                <h2>Express Interest in a Government Office</h2>
+                          <p>Please fill in this form </p>
+                          <hr>
+                          <label for="office"><b>I am interested in:</b></label>
+                          <form >
+                              <input type="radio" name="office" value="presidential"> Presidential<br>
+                              <input type="radio" name="office" value="gubernatorial"> Gubernatorial
+                              <input type="radio" name="office" value="senatorial"> Senatorial
+
+                            </form>
+                          <br>
+
+                          <br>
+                  
+                          <label for="name"><b>Name</b></label>
+                          <input type="text" placeholder="Enter Name" name="Name" required>
+                          
+                          <label for="running mate"><b>Running Mate Name</b></label>
+                          <input type="text" placeholder="Enter Running Mate Name" name="runningmate" required>
+                          
+                          <label for="party"><b>Political Party</b></label>
+                          <form >
+                            <select name="party">
+                              <option value="fck">FCK</option>
+                              <option value="pcp">PCP</option>
+                              <option value="dpk">DPK</option>
+                              <option value="lire">LIRE</option>
+                            </select>
+                            <br><br>
+                            <input type="submit">
+                          </form>
+                          <!--<input type="text" placeholder="Enter Your Political Party" name="party" required>-->
+                      
+                          
+                          <label for="picture"><b>Upload a Profile Picture</b></label>
+                          <form >
+                            <input type="file" name="picture" accept="image/*">
+                            <input type="submit">
+                          </form>                      
+                          <label for="manifesto"><b>Upload your Manifesto</b></label>
+                          <form >
+                                <input name="manifesto" type="file" accept="application/pdf"/>
+                                <input type="submit">
+                          </form> 
+                          <hr>
+
+                          <button class="save" id="expresssave" type="submit" >Save</button> 
+                          <button class="cancel" id="expresscancel" >Cancel</button> 
+
+                         </div>
+                        
+                      </form>
+                    </div>
+                </div>
+                <script>
+                        document.getElementById("expresssave").onclick = function () {
+                            location.href = "usergovernmentoffice.html";
+                        };
+                        document.getElementById("expresscancel").onclick = function () {
+                            location.href = "homepage.html";
+                        };
+                    </script>
+                      
+</body>
+
+</html>
