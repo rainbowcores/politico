@@ -3,7 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #DFF8EB;
     
     font-family: Montserrat, sans-serif;
   }
@@ -19,12 +19,12 @@ body {
   
   .left {
     left: 0;
-    background-color: rgba(135, 206, 235);
+    background-color: #011638;
   }
   
   .right {
     right: 0;
-    background-color: aquamarine;
+    background-color: #DFF8EB;
   }
   
   .centered {
@@ -34,6 +34,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  
+  .centered h1{
+    color: #ffffff;
+  }
+
+  
   
   
   .centered img {
@@ -121,7 +127,7 @@ span.psw {
 }
 
 .topnav {
-  background-color: black;
+  background-color: #011638;
   overflow: hidden;
   position: absolute; 
   top: 0; 
@@ -162,7 +168,7 @@ span.psw {
   color: white;
 }
 .topnav-admin {
-  background-color: black;
+  background-color: #011638;
   overflow: hidden;
   position: fixed; 
   top: 0; 
@@ -255,7 +261,7 @@ th {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #011638;
   color: white;
   text-align: left;
   overflow-x: hidden;
@@ -270,7 +276,7 @@ th {
   
   padding: 0;
   width: 15%;
-  background: #000000;;
+  background: #011638;
   position: fixed;
   height: 88%;
   overflow-x: hidden;
