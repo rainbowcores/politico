@@ -36,7 +36,7 @@ body {
   }
   
   .centered h1{
-    color: #ffffff;
+    color: #fc6d6d;
   }
 
   
@@ -87,7 +87,7 @@ button {
 
 .save {
   border-radius: 6px;
-  width: 30%;
+  width: 50%;
   
 }
 
@@ -135,7 +135,7 @@ span.psw {
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -183,6 +183,8 @@ span.psw {
   text-decoration: none;
   font-size: 17px;
   width: 30%;
+  float: right;
+  
 }
 
 .topnav-admin p {
@@ -263,7 +265,7 @@ th {
   width: 100%;
   background-color: #011638;
   color: white;
-  text-align: left;
+  text-align: center;
   overflow-x: hidden;
   
 }
@@ -289,6 +291,14 @@ th {
 
 
 .sidebar li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 5px 0 0 0;
+}
+
+.sidebar li p {
   display: block;
   color: #ffffff;
   padding: 8px 16px;

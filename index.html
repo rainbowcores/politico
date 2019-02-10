@@ -6,7 +6,6 @@
     <title>Create An Account</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <!--<script src="main.js"></script>-->
 </head>
 <body>
         <div class="split left">
@@ -20,10 +19,8 @@
               <div class="split right">
                 <div class="centered signup">
                   
-                  <!--<img src="resources/check.jpg" alt="Check mark on smartphone screen">-->
                   <form>
                         <div class="container">
-                          <br>
                           <h2>Create a Politico account to Vote</h2>
                           <p>Please fill in this form to create an account.</p>
                           <hr>
@@ -34,22 +31,24 @@
                           </form>
                           <br>
 
-                          <br>
+                          <label for="fname"><b>First Name</b></label>
+                          <input type="text" placeholder="Enter Your First Name" name="fname" required>
+                      
+                          
+                          <label for="lname"><b>Last Name</b></label>
+                          <input type="text" placeholder="Enter Your Last Name" name="lname" required>
+
                           <label for="email"><b>Email</b></label>
                           <input type="email" placeholder="Enter Email" name="email" required>
                           
                           <label for="nationalid"><b>National ID number</b></label>
                           <input type="text" placeholder="Enter National ID number" name="nationalid" required>
                           
-                          <label for="homecounty"><b>Home County</b></label>
-                          <input type="text" placeholder="Enter Home County" name="homecounty" required>
-                      
-                          
+                          <label for="phonenumber"><b>Phone Number</b></label>
+                          <input type="text" placeholder="Enter Your Phone Number" name="phonenumber" required>
+
                           <label for="psw"><b>Password</b></label>
                           <input type="password" placeholder="Enter Password" name="psw" required>
-                      
-                          <label for="psw-repeat"><b>Repeat Password</b></label>
-                          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
                           
                           <hr>
                           <button style="border-radius: 5px" id="signup" type="submit" >Create Account</button>
