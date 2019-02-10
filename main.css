@@ -295,6 +295,7 @@ fieldset.radiogroup  {
   padding: 0; 
   margin: 50px auto;
   width: 60%;
+ 
 
   border-radius: 20px;
    
@@ -334,8 +335,15 @@ ul.radio li.focus  {
   color: white;
 }
 
+profimage {
+  
+  border-radius: 50%;
+}
 
-
+imgfooter{
+  width:2px;
+  height:2px;
+}
 
 
 
