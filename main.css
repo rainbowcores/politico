@@ -87,7 +87,7 @@ button {
 
 .save {
   border-radius: 6px;
-  width: 50%;
+  width: 30%;
   
 }
 
@@ -275,7 +275,7 @@ th {
 .sidebar {
   list-style-type: none;
   z-index: 1;
-  
+  opacity: 0.85;
   padding: 0;
   width: 15%;
   background: #011638;
