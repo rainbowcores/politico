@@ -3,7 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #DFF8EB;
     
     font-family: Montserrat, sans-serif;
   }
@@ -19,12 +19,12 @@ body {
   
   .left {
     left: 0;
-    background-color: rgba(135, 206, 235);
+    background-color: #011638;
   }
   
   .right {
     right: 0;
-    background-color: aquamarine;
+    background-color: #DFF8EB;
   }
   
   .centered {
@@ -34,6 +34,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  
+  .centered h1{
+    color: #fc6d6d;
+  }
+
+  
   
   
   .centered img {
@@ -121,7 +127,7 @@ span.psw {
 }
 
 .topnav {
-  background-color: black;
+  background-color: #011638;
   overflow: hidden;
   position: absolute; 
   top: 0; 
@@ -129,7 +135,7 @@ span.psw {
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -162,7 +168,7 @@ span.psw {
   color: white;
 }
 .topnav-admin {
-  background-color: black;
+  background-color: #011638;
   overflow: hidden;
   position: fixed; 
   top: 0; 
@@ -177,6 +183,8 @@ span.psw {
   text-decoration: none;
   font-size: 17px;
   width: 30%;
+  float: right;
+  
 }
 
 .topnav-admin p {
@@ -255,9 +263,9 @@ th {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #011638;
   color: white;
-  text-align: left;
+  text-align: center;
   overflow-x: hidden;
   
 }
@@ -267,10 +275,10 @@ th {
 .sidebar {
   list-style-type: none;
   z-index: 1;
-  
+  opacity: 0.85;
   padding: 0;
   width: 15%;
-  background: #000000;;
+  background: #011638;
   position: fixed;
   height: 88%;
   overflow-x: hidden;
@@ -283,6 +291,14 @@ th {
 
 
 .sidebar li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 5px 0 0 0;
+}
+
+.sidebar li p {
   display: block;
   color: #ffffff;
   padding: 8px 16px;
